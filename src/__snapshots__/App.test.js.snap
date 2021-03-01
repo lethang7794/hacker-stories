@@ -1,0 +1,437 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App fails fetching data with a list 1`] = `
+<div
+  className="container"
+>
+  <h1
+    className="headlinePrimary"
+  >
+    My Hacker Stories
+  </h1>
+  <form
+    className="searchForm"
+    onSubmit={[Function]}
+  >
+    <label
+      className="label"
+      htmlFor="id"
+    >
+      <strong>
+        Search:
+      </strong>
+    </label>
+     
+    <input
+      autoFocus={true}
+      className="input"
+      id="search"
+      onChange={[Function]}
+      type="text"
+      value="React"
+    />
+    <button
+      className="button buttonLarge"
+      disabled={false}
+      type="button"
+    >
+      <svg>
+        search.svg
+      </svg>
+    </button>
+  </form>
+  <p>
+    Something went wrong ...
+  </p>
+</div>
+`;
+
+exports[`App succeeds fetching data with a list 1`] = `
+<div
+  className="container"
+>
+  <h1
+    className="headlinePrimary"
+  >
+    My Hacker Stories
+  </h1>
+  <form
+    className="searchForm"
+    onSubmit={[Function]}
+  >
+    <label
+      className="label"
+      htmlFor="id"
+    >
+      <strong>
+        Search:
+      </strong>
+    </label>
+     
+    <input
+      autoFocus={true}
+      className="input"
+      id="search"
+      onChange={[Function]}
+      type="text"
+      value="React"
+    />
+    <button
+      className="button buttonLarge"
+      disabled={false}
+      type="button"
+    >
+      <svg>
+        search.svg
+      </svg>
+    </button>
+  </form>
+  <div
+    className="item"
+  >
+    <span
+      style={
+        Object {
+          "width": "50%",
+        }
+      }
+    >
+      <a
+        href="https://reactjs.org/"
+      >
+        React
+      </a>
+    </span>
+    <span
+      style={
+        Object {
+          "width": "20%",
+        }
+      }
+    >
+      Jordan Walke
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      3
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      4
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      <button
+        className="button buttonHoverSvgStroke"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg>
+          check.svg
+        </svg>
+      </button>
+    </span>
+  </div>
+  <div
+    className="item"
+  >
+    <span
+      style={
+        Object {
+          "width": "50%",
+        }
+      }
+    >
+      <a
+        href="https://redux.js.org/"
+      >
+        Redux
+      </a>
+    </span>
+    <span
+      style={
+        Object {
+          "width": "20%",
+        }
+      }
+    >
+      Dan Abramov, Andrew Clark
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      2
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      5
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      <button
+        className="button buttonHoverSvgStroke"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg>
+          check.svg
+        </svg>
+      </button>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Item renders snapshot 1`] = `
+<div
+  className="item"
+>
+  <span
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+  >
+    <a
+      href="https://reactjs.org/"
+    >
+      React
+    </a>
+  </span>
+  <span
+    style={
+      Object {
+        "width": "20%",
+      }
+    }
+  >
+    Jordan Walke
+  </span>
+  <span
+    style={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    3
+  </span>
+  <span
+    style={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    4
+  </span>
+  <span
+    style={
+      Object {
+        "width": "10%",
+      }
+    }
+  >
+    <button
+      className="button buttonHoverSvgStroke"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg>
+        check.svg
+      </svg>
+    </button>
+  </span>
+</div>
+`;
+
+exports[`List renders snapshot 1`] = `
+Array [
+  <div
+    className="item"
+  >
+    <span
+      style={
+        Object {
+          "width": "50%",
+        }
+      }
+    >
+      <a
+        href="https://reactjs.org/"
+      >
+        React
+      </a>
+    </span>
+    <span
+      style={
+        Object {
+          "width": "20%",
+        }
+      }
+    >
+      Jordan Walke
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      3
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      4
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      <button
+        className="button buttonHoverSvgStroke"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg>
+          check.svg
+        </svg>
+      </button>
+    </span>
+  </div>,
+  <div
+    className="item"
+  >
+    <span
+      style={
+        Object {
+          "width": "50%",
+        }
+      }
+    >
+      <a
+        href="https://redux.js.org/"
+      >
+        Redux
+      </a>
+    </span>
+    <span
+      style={
+        Object {
+          "width": "20%",
+        }
+      }
+    >
+      Dan Abramov, Andrew Clark
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      2
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      5
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      <button
+        className="button buttonHoverSvgStroke"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg>
+          check.svg
+        </svg>
+      </button>
+    </span>
+  </div>,
+]
+`;
+
+exports[`SearchForm renders snapshot 1`] = `
+<form
+  className="searchForm"
+  onSubmit={[MockFunction]}
+>
+  <label
+    className="label"
+    htmlFor="id"
+  >
+    <strong>
+      Search:
+    </strong>
+  </label>
+   
+  <input
+    autoFocus={true}
+    className="input"
+    id="search"
+    onChange={[MockFunction]}
+    type="text"
+    value=""
+  />
+  <button
+    className="button buttonLarge"
+    disabled={true}
+    type="button"
+  >
+    <svg>
+      search.svg
+    </svg>
+  </button>
+</form>
+`;
